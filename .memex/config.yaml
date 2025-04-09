@@ -15,15 +15,15 @@ git:
   branch: main
   remote: origin
   url: https://github.com/memextech/shopify-template
-hero_image: https://raw.githubusercontent.com/memextech/shopify-template/main/public/images/hero-image.png
+hero_image: https://raw.githubusercontent.com/memextech/amplify-vite-react-template/main/public/images/hero-image.png
 icon: ''
-is_published: false
+is_published: true
 pills:
-- icon: ''
-  label: ''
-  prompt: ''
+- icon: Music
+  label: Vinyl record store
+  prompt: Guide me through the setup and deployment of a Shopify theme for a vinyl record store.
 project_id: qV4TCP1ESoNa4Cf44EhK
-published_at: null
+published_at: 2025-04-09 20:35:31.260000
 requirements:
 - description: ''
   type: ''
@@ -40,4 +40,4 @@ tools:
   role: ''
   type: ''
   version: ''
-updated_at: 2025-04-09 19:54:20.120000
+updated_at: 2025-04-09 20:35:31.260000
