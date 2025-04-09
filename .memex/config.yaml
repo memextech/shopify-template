@@ -1,0 +1,43 @@
+card_image: ''
+created_at: 2025-04-09 19:54:20.120000
+creator_id: unknown
+deployment:
+  last_deployed: null
+  type: null
+  url: ''
+description: Shopify Theme Template
+domain: ''
+features:
+- ''
+getting_started_screen: false
+getting_started_screen_index: 0
+git:
+  branch: main
+  remote: origin
+  url: https://github.com/memextech/shopify-template
+hero_image: https://raw.githubusercontent.com/memextech/shopify-template/main/public/images/hero-image.png
+icon: ''
+is_published: false
+pills:
+- icon: ''
+  label: ''
+  prompt: ''
+project_id: qV4TCP1ESoNa4Cf44EhK
+published_at: null
+requirements:
+- description: ''
+  type: ''
+slug: ''
+storage:
+  compression_enabled: null
+  gcs_path: null
+  last_sync: null
+  max_file_size_mb: null
+  size_bytes: null
+title: Shopify Theme Template
+tools:
+- name: ''
+  role: ''
+  type: ''
+  version: ''
+updated_at: 2025-04-09 19:54:20.120000
