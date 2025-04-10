@@ -26,10 +26,12 @@ The `setup_checklist.md` file tracks your progress through these steps. As you c
 1. Use this [architecture](https://shopify.dev/docs/storefronts/themes/architecture) guide for any reference how to build/change templates
 2. Theme setup reference https://shopify.dev/docs/storefronts/themes/getting-started/create
 3. Theme customization reference https://shopify.dev/docs/storefronts/themes/getting-started/customize
+4. Use unsplash to make template beautiful with images
 
 ### Generating test store products
 1. Use product_template.csv as template to generate any test products
-2. Ensure to use [Shopify Product Taxonony ](https://shopify.github.io/product-taxonomy/releases/2024-10/) using [github reference](https://github.com/Shopify/product-taxonomy/tree/main/data/categories)
+2. Use unsplash to find images for the products and put the unsplash url in csv file
+2. Ensure to use [Shopify Product Taxonony ](https://shopify.github.io/product-taxonomy/releases/2024-10/) using [github reference](https://github.com/Shopify/product-taxonomy/tree/main/data/categories) for each product
 
 ### Publishing Theme
 1. Run `shopify theme publish` to publish theme to the store
