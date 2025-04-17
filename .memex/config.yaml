@@ -1,4 +1,4 @@
-card_image: ''
+card_image: https://sample.memexdata.com/launch-template-cards/shopify.png
 created_at: 2025-04-09 19:54:20.120000
 creator_id: unknown
 deployment:
@@ -8,14 +8,15 @@ deployment:
 description: Shopify Theme Template
 domain: ''
 features:
-- ''
+- Shopify
+- Starter
 getting_started_screen: false
 getting_started_screen_index: 0
 git:
   branch: main
   remote: origin
   url: https://github.com/memextech/shopify-template
-hero_image: https://raw.githubusercontent.com/memextech/shopify-template/main/public/images/hero-image.png
+hero_image: https://sample.memexdata.com/launch-template-cards/shopify.png
 icon: ''
 is_published: true
 pills:
@@ -41,4 +42,4 @@ tools:
   role: ''
   type: ''
   version: ''
-updated_at: 2025-04-09 20:42:12.025000
+updated_at: 2025-04-17 12:01:55.666000
