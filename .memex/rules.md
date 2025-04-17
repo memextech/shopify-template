@@ -35,3 +35,29 @@ The `setup_checklist.md` file tracks your progress through these steps. As you c
 
 ### Publishing Theme
 1. Run `shopify theme publish` to publish theme to the store
+
+## Shopify Image References
+
+### Proper Image URL Format in Theme Files
+When referencing images in Shopify theme JSON files (like section settings or templates), use this format:
+
+```json
+"image": "shopify:\/\/shop_images\/filename.jpg"
+```
+
+- Note the escaped forward slashes (`\/`) which are required in JSON files
+- The filename must match exactly what you uploaded to Shopify's Files section
+- Do not use direct CDN URLs like `https://cdn.shopify.com/s/files/1/store/files/image.jpg?v=123456789`
+
+### Image URL Conversion Reference
+Converting from CDN URL to proper Shopify reference:
+
+| CDN URL | Proper Shopify Reference |
+|---------|------------------------|
+| `https://cdn.shopify.com/s/files/1/0959/3402/1972/files/photo.jpg?v=1744885051` | `shopify:\/\/shop_images\/photo.jpg` |
+
+### Adding Images to Theme
+If you encounter validation errors with image references, upload the image through:
+1. Shopify admin > Settings > Files
+2. Then reference it using the format above
+3. Alternatively, set images via the Theme Customizer after deployment
